@@ -6,43 +6,61 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src=" myscripts.js">
+  </script>
   <title>Esen Urer - Portfolio</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar">
-      <h1>Esen Urer</h1>
-      <ul class="navlinks">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#workexperience">Work Experience</a></li>
-        <li><a href="#social"></a>Social</li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <h1 class="navbrand">Esen Urer</h1>
+      <a a class="navitem" id="navitem" href="#about">About</a>
+      <a a class="navitem" id="navitem" href="#projects">Projects</a>
+      <a a class="navitem" id="navitem" href="#workexperience">Work Experience</a>
+      <a a class="navitem" id="navitem" href="#social">Social</a>
+      <a href="javascript:void(0);" class="icon" onclick="navmenu()"><span class="material-symbols-outlined">
+          menu
+        </span></a>
+    </div>
   </header>
   <main>
     <section id="about">
       <img id="headshot" src="assets/img/profilepic.jpg" alt="A profile picture">
-      <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque
-        eos recusandae, quia illo facilis dignissimos quisquam, architecto
-        mollitia facere consequuntur labore similique libero quod adipisci
-        saepe, cumque ad quo!
-      </p>
+      <div id="aboutText">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque
+          eos recusandae, quia illo facilis dignissimos quisquam, architecto
+          mollitia facere consequuntur labore similique libero quod adipisci
+          saepe, cumque ad quo! <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore repellendus
+          aut tenetur tempore totam quod eos! Natus ratione labore accusamus architecto culpa odit qui nobis.
+        </p>
+      </div>
     </section>
 
     <section id="projects">
-      <h2>Projects I am wokring on</h2>
-      <h3>Project 1</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, at beatae sint non culpa aperiam vel,
-        error
-        atque tempore maxime perferendis. Ipsam fugit rem nihil deserunt velit sequi laboriosam reprehenderit.</p>
-      <h3>Project 2</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem animi eum beatae quos aperiam eligendi
-        illo, quisquam quas adipisci saepe nostrum eveniet? Eum corrupti magnam doloremque dolores modi repudiandae
-        nemo.</p>
+      <h2>Projects I am working on</h2>
+      <div class="projectCard">
+        <img src="assets/img/project1.png" alt="Screenshot of a previously created website" style="width: 100%;">
+        <div class="cardContainer">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, at beatae sint non culpa aperiam vel,
+            error
+            atque tempore maxime perferendis. Ipsam fugit rem nihil deserunt velit sequi laboriosam reprehenderit.</p>
+        </div>
+      </div>
+      <div class="projectCard">
+        <img src="assets/img/project1.png" alt="Screenshot of a previously created website" style="width: 100%;">
+        <div class="cardContainer">
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem animi eum beatae quos aperiam eligendi
+            illo, quisquam quas adipisci saepe nostrum eveniet? Eum corrupti magnam doloremque dolores modi repudiandae
+            nemo.</p>
+        </div>
+      </div>
     </section>
 
     <section id="workexperience">

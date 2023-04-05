@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+Pro&display=swap');
+
+/* font-family: 'Oswald', sans-serif;  This one is larger*/ 
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #7286D3;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 4px -4px black;
+    width: 100%;
+    position: sticky;
+}
+
+
+.navbrand {
+    color: black;
+    font-size: 25px;
+}
+
+.navbar .navitems {
+    display: flex;
+}
+
+.navbar .navlist {
+    display: none
+    }
+
+.navbar a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+
+.navbar a.icon {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #7286D3;
+    color: #E5E0FF;
+    box-shadow: inset 0 0 7px black;
+}
+
+.navitem {
+    display: none;
+}
+
+nav h1 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+
+h1, h2, h3 {
+    color: #7286D3;
+}
+
+
+body {
+    background-color: #FFF2F2;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#headshot {
+    height: 300px;
+}
+
+#about { 
+    display: flex;
+}
+
+#aboutText {
+    padding-top: 15px;
+}
+
+.projectCard {
+    box-shadow: 0px 4px 8px 0 black;
+    transition: 0.3s;
+    width: 33%;
+}
+
+.projectCard:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+
+#projects { 
+    padding-left: 15px;
+    display: flex;
+}
